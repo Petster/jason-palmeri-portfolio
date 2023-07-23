@@ -7,6 +7,7 @@ import 'sweetalert2/src/sweetalert2.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter, faGithub, faLinkedin, faDiscord} from '@fortawesome/free-brands-svg-icons'
 import { useState } from "react";
+import Head from "next/head";
 
 const socialLinks = [
     {
@@ -25,10 +26,6 @@ const socialLinks = [
       "url": "https://linkedin.com/in/jasontpalmeri",
     }
   ]
-
-export const metadata: Metadata = {
-    title: 'Jason Palmeri | Connect',
-}
 
 export default function Connect() {
     const [name, setName] = useState("");
@@ -84,6 +81,9 @@ export default function Connect() {
 
     return (
         <section className="flex flex-grow items-center justify-center bg-port sm:p-2">
+            <Head>
+                <title>Jason Palmeri | Connect</title>
+            </Head>
         <div className="t-bg rounded-md w-full mx-auto p-5">
             <div className="flex flex-col-reverse lg:flex-row">
             <div className="flex-grow">
