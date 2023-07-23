@@ -1,5 +1,3 @@
-'use client'
-
 import '../styles/globals.css'
 import Nav from '@/components/Nav'
 import type { Metadata } from 'next'
@@ -25,10 +23,9 @@ export const metadata: Metadata = {
 }
 
 export default function RootLayout({
-  children, index
+  children
 }: {
-  children: React.ReactNode,
-  index: boolean
+  children: React.ReactNode
 }) {
 
   return (
