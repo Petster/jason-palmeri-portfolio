@@ -3,6 +3,11 @@ import WorkCard from '@/components/WorkCard';
 import { skillsList } from '@/data/skills';
 import SkillCard from '@/components/SkillCard'
 import { Metadata } from 'next';
+import Image from "next/image";
+import deanWinter from "@/images/2021_winter_dean_gpa.png";
+import deanSpring from "@/images/2022_spring_dean.png";
+import deanFall from "@/images/2022_fall_dean.png";
+import deanSpring23 from "@/images/2023_spring_dean.png";
 
 export const metadata: Metadata = {
     title: 'Jason Palmeri | Work, Projects & Skills',
@@ -32,6 +37,26 @@ export default function Portfolio() {
           <div className="flex-grow"></div>
         </div>
           <hr/>
+            <div>
+                <div className='p-12 flex flex-col sm:flex-row items-center sm:justify-between gap-4 mx-auto'>
+                    <a title="Deans List 2021 Winter" href="https://www.credly.com/badges/dd9160b7-a2e8-4dad-94c3-4048b83e09eb/public_url" target="_blank">
+                        <span className="sr-only">Bellevue University Deans List 2021 Winter 4.0 GPA</span>
+                        <Image alt="Bellevue University Deans List 2021 Winter 4.0 GPA" src={deanWinter} className="border border-black shadow-2xl rounded-full" />
+                    </a>
+                    <a title="Deans List 2022 Spring" href="https://www.credly.com/badges/205e5234-b0ac-44f8-8a70-31ddf4411ed2/public_url" target="_blank">
+                        <span className="sr-only">Bellevue University Deans List 2022 Spring 4.0 GPA</span>
+                        <Image alt="Bellevue University Deans List 2022 Spring 4.0 GPA" src={deanSpring} className="border border-black shadow-2xl rounded-full" />
+                    </a>
+                    <a title="Deans List 2022 Fall" href="https://www.credly.com/badges/fcbfd71f-b620-45e7-a345-4eec9d45581f/public_url" target="_blank">
+                        <span className="sr-only">Bellevue University Deans List 2022 Fall 4.0 GPA</span>
+                        <Image alt="Bellevue University Deans List 2022 Fall 4.0 GPA" src={deanFall} className="border border-black shadow-2xl rounded-full" />
+                    </a>
+                    <a title="Deans List 2023 Spring" href="https://www.credly.com/badges/d09cd9f3-38eb-46f9-93db-eec7c5b2a888/public_url" target="_blank">
+                        <span className="sr-only">Bellevue University Deans List 2023 Spring 4.0 GPA</span>
+                        <Image alt="Bellevue University Deans List 2022 Fall 4.0 GPA" src={deanSpring23} className="border border-black shadow-2xl rounded-full" />
+                    </a>
+                </div>
+            </div>
         <div className="lg:masonry-2-col xl:masonry-3-col p-2">
           {workData.map((da, index) =>
             da.url !== "#" ? (<WorkCard key={index} name={da.title} desc={da.desc} url={da.url} img={da.img_url} />) : (<WorkCard key={index} name={da.title} desc={da.desc} url={""} img={da.img_url} />)
