@@ -29,7 +29,7 @@ export default function About() {
     <div className="flex">
         <div className="t-bg p-3 rounded-none md:rounded-lg text-white">
           <div className="p-12 flex flex-col space-y-4 md:float-right float-none text-center">
-            <Image alt="My Face" src={myFace} className="shadow-2xl rounded-full md:h-72 md:w-72 h-96 w-96 mx-auto md:mx-none" />
+            <Image alt="My Face" src={myFace} className="shadow-2xl rounded-full md:h-72 md:w-72 w-96 mx-auto md:mx-none" />
           </div>
           <br/>
           <p className={pStyle}>

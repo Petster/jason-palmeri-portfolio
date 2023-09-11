@@ -5,4 +5,4 @@ As I learn more about react, other frameworks and website development and design
 
 This project was built using [NextJS](https://nextjs.org/) and [TailwindCSS](https://tailwindcss.com/)
 
-__Last uploaded to [Portfolio](https://portfolio.petstergaming.com) on 07/23/2022__
+__Last uploaded to [Portfolio](https://portfolio.petstergaming.com) on 09/11/2023__
