@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 import 'animate.css';
 import { Inter } from 'next/font/google'
 import '@fortawesome/fontawesome-svg-core/styles.css'
+import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -39,6 +40,7 @@ export default function RootLayout({
             </header>
             <section className="flex flex-grow">
                 {children}
+                <Analytics />
             </section>
             <footer className="md:rounded-t-md rounded-none w-full space-x-6 text-center mx-auto p-2">
                 <p className="text-white">Jason Palmeri | &copy; {new Date().getFullYear()}</p>
