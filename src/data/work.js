@@ -10,8 +10,17 @@ import pgapp from '@/images/work_thumb/app.petstergaming.png'
 import bellevue from '@/images/work_thumb/bellevuework.png'
 import soundsofsilence from '@/images/work_thumb/soundsofsilence.png'
 import atoa from '@/images/work_thumb/atoa.png'
+import myfirstsite from '@/images/work_thumb/my-first-site.png';
 
 export const workData = [
+    {
+        "title": "My First Project",
+        "desc": `This is the work of my first College course's final. Web 01 at Nashua Community College dated 2017. An odd looking site but fun to see where it all started!
+            <br/><br/>
+            <a class="underline" href="https://github.com/Petster/my-first-website" target="_blank">View Code</a>`,
+        "img_url": myfirstsite,
+        "url": "https://petster.github.io/my-first-website/"
+    },
     {
         "title": "Software Development Bachelors Program",
         "desc": `Within this large repository you will find all of my bachelors program work, from Java to JavaScript.
