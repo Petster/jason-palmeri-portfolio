@@ -109,7 +109,7 @@ export const profWork = [
 
             <br/>
             <br/>
-            Artists Talk on Art is currently on break, getting ready to celebrate 50 years, but check back soon!
+            Artists Talk on Art is getting ready to celebrate 50 years, so stay tuned and register for their weekly programs if you are interested!
         `,
         "img_url": atoa,
         "url": "https://www.atoanyc.org/"
