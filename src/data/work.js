@@ -99,17 +99,14 @@ export const profWork = [
     {
         "title": "Artists Talk on Art NYC",
         "desc": `For my final class at Bellevue University, we are tasked with giving back to the community via the Kirkpatrick Program. We are asked to find a place to volunteer at for the duration of the class and write reports on it (You can find my reports in my Bellevue University Repository)
-            <br/>
-            <br/>
-            After searching for a place to volunteer at locally, I was unsuccessful and pursued an online volunteer gig, somewhere where I could use my skills. After talking to the director of Artists Talk on Art, Douglas Sheer, I was asked to join their team as the website manager.
-
+            
             <br/>
             <br/>
             I had an amazing time at AToA, meeting lots of people and helping keep their website up to date with current events. I had such a great time that I was asked to stay as their website manager even after my Kirkpatrick program ended.
 
             <br/>
             <br/>
-            Artists Talk on Art is getting ready to celebrate 50 years, so stay tuned and register for their weekly programs if you are interested!
+            During Artists Talk on Art's 50th Anniversary Auction I got to spend more time learning Squarespace, JotForm, and BidSquare platforms. Creating custom scripts for store pages and HTML landing pages for the organization. 
         `,
         "img_url": atoa,
         "url": "https://www.atoanyc.org/"

@@ -1,14 +1,14 @@
 import {
-    faHtml5,
-    faCss3,
-    faJs,
-    faPhp,
-    faBuffer,
-    faAws,
-    faBootstrap,
-    faUikit,
-    faNodeJs
-  } from '@fortawesome/free-brands-svg-icons'
+  faHtml5,
+  faCss3,
+  faJs,
+  faPhp,
+  faBuffer,
+  faAws,
+  faBootstrap,
+  faUikit,
+  faNodeJs, faSquarespace, faWordpress
+} from '@fortawesome/free-brands-svg-icons'
   import {
     faVideo,
     faMicrophone,
@@ -45,8 +45,8 @@ import {
         },
         {
           "type": "Web",
-          "name": "Python",
-          "icon": faPython,
+          "name": "Java",
+          "icon": faJava,
           "link": "",
         },
         {
@@ -58,12 +58,6 @@ import {
           "type": "Web",
           "name": "PHP",
           "icon": faPhp,
-        },
-        {
-          "type": "Web",
-          "name": "Java",
-          "icon": faJava,
-          "link": "",
         },
         {
           "type": "Web",
@@ -99,6 +93,18 @@ import {
           "type": "Programming",
           "name": "AWS",
           "icon": faAws,
+        },
+        {
+          "type": "Programming",
+          "name": "Squarespace",
+          "icon": faSquarespace,
+          "link": "",
+        },
+        {
+          "type": "Programming",
+          "name": "Wordpress",
+          "icon": faWordpress,
+          "link": "",
         },
         {
           "type": "Programming",
