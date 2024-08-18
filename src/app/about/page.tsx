@@ -45,11 +45,11 @@ export default function About() {
           <p className={pStyle}>This version of my portfolio was converted from React to <a href="https://nextjs.org/" className="text-purple-300 hover:underline" target="_blank">NextJS</a>. Previously I was using <a href="https://vitejs.dev/" className="text-purple-300 hover:underline" target="_blank">Vite</a> but I wanted to try out Next&apos;s newest version with their App Router. This is the first step in my plan to start working on (and finishing) side projects, being a new graduate I have some free time and want to continue to build up my skills 😊 You can view the code for this website <a href="https://github.com/Petster/jason-palmeri-portfolio" target="_blank" className="text-purple-300 hover:underline">Here</a> and the code for my older (React) version <a href="https://github.com/Petster/react-portfolio" target="_blank" className="text-purple-300 hover:underline">Here</a></p>
           <br/>
           <h1 className={hStyle}>Today</h1>
-          <p className={pStyle}>Today I work at Pinpoint Global as a QA Engineer for their suite of LMS and Medicare sites to provide customers with online certification training. My duties have included:</p>
+          <p className={pStyle}>Today I work at Pinpoint Global as a Software Automation Engineer for their suite of LMS and Medicare sites to provide customers with online certification training. My duties have included:</p>
           <ul>
             <li className={liStyle}>Writing and Executing test cases</li>
             <li className={liStyle}>Creating Automation testing software (via Selenium)</li>
-            <li className={liStyle}>Creating Internal tools to help the support team</li>
+            <li className={liStyle}>Creating Other Internal tools to help the support team</li>
           </ul>
           <p className={pStyle}>Being at Pinpoint has been an amazing experience, and I continue to learn more every day.</p>
           <p className={pStyle}>I am always open to new project ideas and opportunities, so feel free to <Link className={'text-purple-300 hover:underline'} href={'/connect'}>Connect</Link> with me</p>
