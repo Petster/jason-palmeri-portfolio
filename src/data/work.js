@@ -16,7 +16,7 @@ import vsportfolio from '@/images/work_thumb/vs-portfolio.png'
 export const workData = [
     {
         "title": "VS Code Portfolio",
-        "desk": `I recreated my Portfolio with a VS Code feel! Featuring openable folder structures and more to come!<br/>Work in progress!`,
+        "desc": `I recreated my Portfolio with a VS Code feel! Featuring openable folder structures and more to come!<br/>Work in progress!`,
         "img_url": vsportfolio,
         "url": "https://vs.jpalmeri.dev/"
     },
