@@ -12,6 +12,7 @@ import soundsofsilence from '@/images/work_thumb/soundsofsilence.png'
 import atoa from '@/images/work_thumb/atoa.png'
 import myfirstsite from '@/images/work_thumb/my-first-site.png';
 import vsportfolio from '@/images/work_thumb/vs-portfolio.png'
+import ttshmg from '@/images/work_thumb/ttshmg.png'
 
 export const workData = [
     {
@@ -104,23 +105,31 @@ export const workData = [
 
 export const profWork = [
     {
+        "title": "The Truth So Help Me Good",
+        "desc": `Designed and developed a website for a local memoir writer who wanted to share their story. The site was built using NextJS and deployed to Vercel to keep costs low.
+        <br/><br/>
+        This was a fun project to work on, because the client wanted to keep things simple, while also having some editable content blocks. To keep costs low I built a custom CMS for them to give them the tools they needed to update their site whenever they want.
+        
+        `,
+        "img_url": ttshmg,
+        "url": "https://www.thetruthsohelpmegood.com/"
+    },
+    {
         "title": "Artists Talk on Art NYC",
-        "desc": `For my final class at Bellevue University, we are tasked with giving back to the community via the Kirkpatrick Program. We are asked to find a place to volunteer at for the duration of the class and write reports on it (You can find my reports in my Bellevue University Repository)
-            
-            <br/>
-            <br/>
-            I had an amazing time at AToA, meeting lots of people and helping keep their website up to date with current events. I had such a great time that I was asked to stay as their website manager even after my Kirkpatrick program ended.
-
-            <br/>
-            <br/>
-            During Artists Talk on Art's 50th Anniversary Auction I got to spend more time learning Squarespace, JotForm, and BidSquare platforms. Creating custom scripts for store pages and HTML landing pages for the organization. 
+        "desc": `I manage Artists Talk on Art's event page and helped to create custom components for their SquareSpace website during their 50th anniversary.
+        <br/>
+        <br/>
+        I also helped them to integrate their Constant Contact forms into the site to streamline their email marketing
         `,
         "img_url": atoa,
         "url": "https://www.atoanyc.org/"
     },
     {
         "title": "Coating Systems Group Website Management",
-        "desc": "Tasked with helping keep the WordPress hosted site up to date, as well as providing help with updating the sites content",
+        "desc": `Tasked with helping keep the WordPress hosted site up to date, as well as providing help with updating the sites content
+        <br/><br/>
+        My other tasks have included backing up the site, and being on top of any outages by talking to their hosting provider.
+        `,
         "img_url": csi,
         "url": "http://www.coatingsystemsgroup.com/"
     },
@@ -132,11 +141,7 @@ export const profWork = [
         <br/>
 
             The redesign involved finding a new theme on WordPress, and integrating some custom CSS and JavaScript to get a clean look
-
-        <br/>
-        <br/>
-
-        I was also tasked with helping update several blog posts that were using a much older version of WordPress, making sure every post had a thumbnail.`,
+        `,
         "img_url": soundsofsilence,
         "url": "https://www.soundsofsilence.com/"
     },
