@@ -13,6 +13,7 @@ import atoa from '@/images/work_thumb/atoa.png'
 import myfirstsite from '@/images/work_thumb/my-first-site.png';
 import vsportfolio from '@/images/work_thumb/vs-portfolio.png'
 import ttshmg from '@/images/work_thumb/ttshmg.png'
+import carollachance from '@/images/work_thumb/carollachance.png'
 
 export const workData = [
     {
@@ -113,6 +114,16 @@ export const profWork = [
         `,
         "img_url": ttshmg,
         "url": "https://www.thetruthsohelpmegood.com/"
+    },
+    {
+        "title": "Ponderings - Carol LaChance",
+        "desc": `Designed and developed a website for a local memoir writer who wanted to share their story. The site was built using NextJS and deployed to Vercel to keep costs low.
+        <br/><br/>
+        I worked on this project with Carol around the same time as The Truth So Help Me Good, and we used a similar approach to building the site.
+        
+        `,
+        "img_url": carollachance,
+        "url": "https://www.carollachance.com/"
     },
     {
         "title": "Artists Talk on Art NYC",
