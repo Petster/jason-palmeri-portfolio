@@ -1,6 +1,7 @@
 import { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
+import AgeCounter from '@/components/AgeCounter'
 import myFace from '@/images/myface_transparent.png'
 import deanWinter from '@/images/2021_winter_dean_gpa.png'
 import deanSpring from '@/images/2022_spring_dean.png'
@@ -15,14 +16,6 @@ const pStyle = "text-left text-lg leading-loose";
 const hStyle = "text-xl underline font-bold";
 const liStyle = "text-lg list-disc leading-loose ml-6"
 
-const today = new Date();
-const birthday = new Date("October 30 " + today.getFullYear());
-let age = parseInt(today.getFullYear().toString().substring(2));
-
-if(today <= birthday) {
-  age -= 1;
-}
-
 export default function About() {
   return (
     <section className="flex flex-grow items-center justify-center bg-port sm:p-2">
@@ -33,7 +26,7 @@ export default function About() {
           </div>
           <br/>
           <p className={pStyle}>
-          <span className={hStyle}>Hey! My name is Jason Palmeri</span>, I&apos;m {age} years old with a Bachelors in Software Development. Graduated at Bellevue University in 2023 in their Software Development Program</p>
+          <span className={hStyle}>Hey! My name is Jason Palmeri</span>, I&apos;m <AgeCounter /> years old with a Bachelors in Software Development. Graduated at Bellevue University in 2023 in their Software Development Program</p>
           <br/>
           <h1 className={hStyle}>Early Life</h1>
           <p className={pStyle}>When I was younger I was always fascinated with technology, I would spend most of my free time playing video games, watching youtube and twitch, and learning as much as I could about the things I loved. I loved to play around with the junk computers that my father had down in the basement, and with a little help from youtube I taught myself about computer building, and have had my own custom built computer ever since. Having always been interested in youtube and twitch, I eventually saw myself creating videos and live streaming, though I didn&apos;t see much success, I kept uploading and streaming, and learning to get better at using the tools available to me like Adobe Premiere Pro, Sony Vegas, and Adobe Photoshop.</p>
@@ -51,8 +44,8 @@ export default function About() {
             <li className={liStyle}>Creating Automation testing software (via Selenium)</li>
             <li className={liStyle}>Creating Other Internal tools to help the support team</li>
           </ul>
-          <p className={pStyle}>Being at Pinpoint has been an amazing experience, and I continue to learn more every day.</p>
-          <p className={pStyle}>I am always open to new project ideas and opportunities, so feel free to <Link className={'text-purple-300 hover:underline'} href={'/connect'}>Connect</Link> with me</p>
+          <p className={pStyle}>Being at Pinpoint has been an amazing experience, and I continue to learn more every day. With AI becoming more prevalent in the industry, I am constantly exploring new ways to integrate it into my work to improve efficiency and outcomes. AI is great for developer teams to push out new features quickly, but with that there always comes unexpected bugs. Thats why its important to have an excellent QA team working manually AND automatically on deploys</p>
+          <br/><p className={pStyle}>I am always open to new project ideas and opportunities, so feel free to <Link className={'text-purple-300 hover:underline'} href={'/connect'}>Connect</Link> with me</p>
         </div>
     </div>
   </section>

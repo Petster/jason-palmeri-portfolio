@@ -149,3 +149,19 @@ body::-webkit-scrollbar-thumb {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
+
+.swal2-popup .swal2-actions button.swal2-styled {
+  color: #fff !important;
+}
+
+.swal2-popup .swal2-actions button.swal2-confirm {
+  background-color: #3085d6 !important;
+}
+
+.swal2-popup .swal2-actions button.swal2-cancel {
+  background-color: #d33 !important;
+}
+
+.swal2-popup .swal2-actions button.swal2-deny {
+  background-color: #6e7881 !important;
+}
