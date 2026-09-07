@@ -133,7 +133,7 @@ export const profWork = [
         I also helped them to integrate their Constant Contact forms into the site to streamline their email marketing
         `,
         "img_url": atoa,
-        "url": "https://www.atoanyc.org/"
+        "url": "https://www.artiststalkonart.org/"
     },
     {
         "title": "Coating Systems Group Website Management",
